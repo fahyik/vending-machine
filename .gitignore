@@ -1,0 +1,13 @@
+node_modules
+
+# test coverage
+.coverage
+
+# build files
+/build/
+
+# Caches
+.eslintcache
+/tsconfig.tsbuildinfo
+/tsconfig.strict.tsbuildinfo
+/.jest-cache/

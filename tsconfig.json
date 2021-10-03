@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "isolatedModules": false,
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true,
+    "newLine": "lf",
+    "noErrorTruncation": true,
+    "skipLibCheck": true,
+    "outDir": "./build"
+  },
+  "exclude": ["node_modules", "./build"]
+}
