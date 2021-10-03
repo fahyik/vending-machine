@@ -40,15 +40,10 @@ interface VendingMachine {
 }
 ```
 
-## Example through REPL
-
-Build and run the node repl
-
-- `$ npm run tsc`
-- `$ node`
+## Example
 
 ```javascript
-const { buildVendingMachine } = require("./build/vending-machine");
+import { buildVendingMachine } from ("@xuffux/vending-machine");
 
 const vendingMachine = buildVendingMachine();
 

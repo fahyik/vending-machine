@@ -1,7 +1,7 @@
 {
-  "name": "vending-machine",
-  "version": "0.0.0",
-  "description": "vending-machine-onfido",
+  "name": "@xuffux/vending-machine",
+  "version": "0.0.1",
+  "description": "vending-machine coding exercise",
   "main": "index.js",
   "dependencies": {
     "joi": "^17.4.2",
