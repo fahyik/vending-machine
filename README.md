@@ -82,6 +82,9 @@ vendingMachine.getInventoryHistory();
 //   }
 // ]
 
+vendingMachine.sell("coca-cola", { "20p": 1 });
+// { outcome: 'failure', reason: 'INSUFFICIENT_CASH' }
+
 vendingMachine.sell("coca-cola", { "20p": 6 });
 // { outcome: 'failure', reason: 'NO_CHANGE_POSSIBLE' }
 
