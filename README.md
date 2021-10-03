@@ -4,9 +4,9 @@ Vending Machine Programme
 
 ## Getting Started
 
-To install packages:
+To install package:
 
-- `$ npm install`
+- `$ npm install --save @xuffux/vending-machine`
 
 To run the tests:
 
