@@ -8,10 +8,6 @@ To install package:
 
 - `$ npm install --save @xuffux/vending-machine`
 
-To run the tests:
-
-- `$ npm run test`
-
 The vending machine is provided as an object with the following interface:
 
 ```typescript
