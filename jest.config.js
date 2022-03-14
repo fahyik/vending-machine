@@ -7,5 +7,5 @@ module.exports = {
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   testPathIgnorePatterns: ["/node_modules/", "/build/"],
   collectCoverage: true,
-  collectCoverageFrom: ["vending-machine/**/*.ts"],
+  collectCoverageFrom: ["./src/vending-machine/**/*.ts"],
 };
