@@ -1,4 +1,5 @@
 import { addTwoChanges, subtractTwoChanges, sumChange } from "./change-utils";
+import { DENOMINATIONS } from "./change-utils/constants";
 
 export type Change = {
   "1p": number;
@@ -42,18 +43,7 @@ export type BankEvent = {
 };
 
 export function isChangeStateValid(state: Change): boolean {
-  const changes: (keyof Change)[] = [
-    "1p",
-    "2p",
-    "5p",
-    "10p",
-    "20p",
-    "50p",
-    "100p",
-    "200p",
-  ];
-
-  for (const value of changes) {
+  for (const value of DENOMINATIONS) {
     if (state[value] < 0) {
       return false;
     }
